@@ -29,7 +29,7 @@ function newForEach(array, callback){
         callback(array[i], i)
     }
 }
-//newForEach(array1, mostrarValores)
+newForEach(array1, mostrarValores)
 
 
 
@@ -43,7 +43,7 @@ function newMap(array, callback){
     }
     return newArray
 }
-// console.log(newMap(array1, somar))
+newMap(array1, somar)
 
 
 
@@ -58,7 +58,7 @@ function newFilter(array, callback){
     }
     return newArray
 }
-// console.log(newFilter(array1, numMaior))
+newFilter(array1, numMaior)
 
 
 
@@ -71,7 +71,7 @@ function newFind(array, callback){
         }
     }
 }
-// console.log(newFind(array1, numMaior))
+newFind(array1, numMaior)
 
 
 
@@ -85,7 +85,7 @@ function newFindIndex(array, callback){
     }
     return -1
 }
-// console.log(newFindIndex(array1, numMaior))
+newFindIndex(array1, numMaior)
 
 
 
@@ -98,7 +98,7 @@ function newReduce(array, callback, valorInicial = 1){
     }
     return resultado
 }
-// console.log(newReduce(array1, mult, ))
+newReduce(array1, mult, )
 
 
 
@@ -113,7 +113,7 @@ function newSome(array, callback){
     }
     return resultado
 }
-// console.log(newSome(array1, numMaior))
+newSome(array1, numMaior)
 
 
 
@@ -128,7 +128,7 @@ function newEvery(array, callback){
     }
     return resultado
 }
-// console.log(newEvery(array1, numMaior))
+newEvery(array1, numMaior)
 
 
 
@@ -147,7 +147,7 @@ function newFill(array, valor, comeco = 0, fim = array.length){
     }
     return array
 }
-// console.log(newFill(array1, 9, 3))
+newFill(array1, 9, 3)
 
 
 
@@ -162,7 +162,7 @@ function newIncludes(array, elemento, comeco = 0){
     }
     return resultado
 }
-// console.log(newIncludes(array1, 5, 0))
+newIncludes(array1, 5, 0)
 
 
 
@@ -187,7 +187,7 @@ function newIndexOf(array, elemento, comeco = 0){
 
     return -1
 }
-// console.log(newIndexOf(array1, 5))
+newIndexOf(array1, 5)
 
 
 
@@ -202,7 +202,7 @@ function newConcat(...elementos){
     }
     return resultado
 }
-// console.log(newConcat(array2, array3))
+newConcat(array2, array3)
 
 
 
@@ -218,4 +218,4 @@ function newJoin(array, separador){
     }
     return resultado
 }
-// console.log(newJoin(array2, ' @ '))
+newJoin(array2, ' @ ')
